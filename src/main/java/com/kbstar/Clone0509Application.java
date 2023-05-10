@@ -7,10 +7,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @EnableScheduling // 스케쥴링 사용하겠다고 선언하기
 @SpringBootApplication
-public class AdminApplication {
+public class Clone0509Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(AdminApplication.class, args);
+        SpringApplication.run(Clone0509Application.class, args);
     }
     // JSP SETTING
     @Bean
